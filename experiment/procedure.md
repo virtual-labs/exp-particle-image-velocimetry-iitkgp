@@ -17,24 +17,25 @@
 ***1. Analyze the captured images using any open source PIV software to determine velocity field.***
 
 ### Results/Analysis:
+#### Model 1
 1.	Results contain 12 consecutive frames captured using e-PIV. Below is a preview of the ani-mation of captured images.
 
 
 <center>
-<img src="./images/Fig3.gif" style="width:50%;">
+<img src="./images/Fig3.gif" style="width:32%;">
 </center>
 
 
 Below are first two frames of the eleven frames from the above animation captured at Δt = 0.03 seconds from t=0 (Image 1) and Δt = 0.03 seconds from t1 (Image 2).
 
 <center>
-<img src="./images/Fig4a.jpg" style="width:50%;">
+<img src="./images/Fig4a.jpg" style="width:32%;">
 
 #### Image 1 at t1 = 0.03 s
 </center>
 
 <center>
-<img src="./images/Fig4b.jpg" style="width:50%;">
+<img src="./images/Fig4b.jpg" style="width:32%;">
 
 #### Image 2 at t2 = 0.06 s
 </center>
@@ -43,5 +44,32 @@ Below are first two frames of the eleven frames from the above animation capture
  
 
 <center>
-<img src="./images/Fig5.png" style="width:50%;">
+<img src="./images/Fig5.png" style="width:32%;">
+</center>
+
+
+Model 2 : Step
+1.	Results contain 21 consecutive frames captured using e-PIV. Below is a preview of the animation of captured images.
+ 
+<center>
+<img src="./images/Fig6.gif" style="width:32%;">
+</center>
+
+Below are first two frames of the twenty one frames from the above animation captured at Δt = 0.03 seconds from t=0 (Image 1) and Δt = 0.03 seconds from t1 (Image 2).
+<center>
+<img src="./images/Fig7a.jpg" style="width:32%;">
+
+##### Image 1 at t1 = 0.03 s
+</center>
+
+<center>
+<img src="./images/Fig7b.jpg" style="width:32%;">
+
+##### Image 2 at t2 = 0.06 s
+</center>
+
+2.	The pairs of images are processed to give velocity field. The processing can be done using an open source PIV tool e.g., PIVlab of Matlab. Each pair of images provides a set of velocity field. A contour of time-averaged velocity magnitude with an overlay of the velocity vector obtained using system software is given below.
+ 
+<center>
+<img src="./images/Fig8.png" style="width:32%;">
 </center>
