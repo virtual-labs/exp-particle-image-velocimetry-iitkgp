@@ -9,7 +9,7 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Flow Characterization over Eppler340 airfoil</title>
+    <title>Particle Image Velocimetry</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,24 +41,17 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
             <p class="text-center"> <h3 class=" my-5 text-primary"> Instructions: </h3>
               <ul class="">
                 <li class="h5 text-secondary"> Before starting the process read the instructions completely</li>
-                  <li class="h5">Interacting with Controls:</li>
-                    <ul>  
-                      <li>Press <b>"E"</b> to interact with the smaple blocks and enter the zoom view area.</li>
-                      <li>Press <b>"Q"</b> to quit the zoom view monitor view.</li>
-                    </ul>
-                  <li class="h5">Starting and Stopping the Experiment:</li>
-                    <ul>
-                      <li><b>Start Experiment:</b> Click on the sample brick in blue and place in the setup to initiate the flow. This activates the flow and visualize the particle flow. Press the <b>Green Button</b> to zoom in the movitor</li>
-                      <li><b>Stop Experiment:</b> To stop the experiment remove the sample from the setup and place distant from the transparent area.</li>
-                    </ul>
-                  <li class="h5">Enjoying the Experiment:</li>
-                    <ul>
-                      <li>Immerse yourself in the airflow experiment by manipulating the pitot tube position and observing the resultant changes in collected data.</li>
-                    </ul>
-                  <li class="h5">Resetting:</li>
-                    <ul>
-                      <li>If necessary, reset the collected data and commence a new experiment session by refreshing the page.</li>
-                    </ul>
+                <li class="h5">Controls:</li>
+                <ul>  
+                  <li>Mouse cursor to aim</li>
+                  <li>Press <b>"E"</b> to interact with the objects.</li>
+                  <li>Press <b>"Q"</b> to quit zoom view.</li>
+                </ul>
+              <li class="h5">Procedure</li>
+                <ul>
+                  <li>Interact with the geometry and drop them on the test section</li>
+                  <li>Interact with the golden button for a close up view of the flow</li>
+                </ul>
                   </ul>
             </p> 
           </div>
@@ -118,13 +111,13 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
             }
       
             var buildUrl = "./js/Build";
-            var loaderUrl = buildUrl + "/Build.loader.js";
+            var loaderUrl = buildUrl + "/EPIV.loader.js";
             var config = {
-              dataUrl: buildUrl + "/Build.data",
-              frameworkUrl: buildUrl + "/Build.framework.js",
-              codeUrl: buildUrl + "/Build.wasm",
+              dataUrl: buildUrl + "/EPIV.data",
+              frameworkUrl: buildUrl + "/EPIV.framework.js",
+              codeUrl: buildUrl + "/EPIV.wasm",
               streamingAssetsUrl: "./js/StreamingAssets",
-              companyName: "Virtual Labs, IIT Kharagpur",
+              companyName: "Virtual Labs,IIT Kharagpur",
               productName: "Particle Image Velocimetry",
               productVersion: "0.1",
               showBanner: unityShowBanner,
@@ -180,6 +173,62 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
 
         </div>
         <div class="col-md-1"></div>
+      </div><br><br><br>
+      <div class="row p-3">
+        <div class="col">
+          <h3>Results/Analysis:</h3><br>
+          <h4> Model 1: SHARP-EDGED WEDGE </h4><br>
+          <ol>
+            <li>Results contain 12 consecutive frames captured using e-PIV. Below is a preview of the ani-mation of captured images.</li><br>
+             <center>
+              <img src="../images/Fig3.gif" style="width:32%;">
+              </center><br>
+              Below are first two frames of the eleven frames from the above animation captured at Δt = 0.03 seconds from t=0 (Image 1) and Δt = 0.03 seconds from t1 (Image 2). <br>
+
+<center>
+<img src="../images/Fig4a.jpg" style="width:32%;">
+
+<h5> Image 1 at t1 = 0.03 s</h5>
+</center><br>
+
+<center>
+<img src="../images/Fig4b.jpg" style="width:32%;">
+
+<h5>Image 2 at t2 = 0.06 s</h5>
+</center><br>
+              <li>The pairs of images are processed to give velocity field. The processing can be done using an open source PIV tool e.g., PIVlab of Matlab. Each pair of images provides a set of velocity field. A contour of time-averaged velocity magnitude with an overlay of the velocity vector obtained using system software is given below. <br>
+                
+                <center>
+                  <img src="../images/Fig5.png" style="width:32%;">
+                  </center><br>
+              </li>
+          </ol>
+          <h4> Model 2 : STEP </h4><br>
+          <ol>
+            <li>Results contain 21 consecutive frames captured using e-PIV. Below is a preview of the animation of captured images.</li><br>
+            <center>
+              <img src="../images/Fig6.gif" style="width:32%;">
+              </center><br>
+              
+              Below are first two frames of the twenty one frames from the above animation captured at Δt = 0.03 seconds from t=0 (Image 1) and Δt = 0.03 seconds from t1 (Image 2). <br>
+              <center>
+              <img src="../images/Fig7a.jpg" style="width:32%;">
+              
+              <h5> Image 1 at t1 = 0.03 s</h5>
+              </center><br>
+              
+              <center>
+              <img src="../images/Fig7b.jpg" style="width:32%;">
+              
+              <h5>Image 2 at t2 = 0.06 s</h5>
+              </center><br>
+              <li>The pairs of images are processed to give velocity field. The processing can be done using an open source PIV tool e.g., PIVlab of Matlab. Each pair of images provides a set of velocity field. A contour of time-averaged velocity magnitude with an overlay of the velocity vector obtained using system software is given below.</li><br>
+                <center>
+                <img src="../images/Fig8.png" style="width:32%;">
+                </center><br>
+                
+          </ol>
+        </div>
       </div>
     </div>
     <div class="container p-3 my-5 text-primary text-center border">

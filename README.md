@@ -7,7 +7,7 @@
 
 ### About the Experiment 
 
-To study the principle and dependent parameters of advanced welding processes like laser welding and friction stir welding.
+Flow visualization and velocity field quantification using Particle Image Velocimetry (PIV) for flow over small scale bluff bodies
 
 # Subject Matter Experts
 | SNo. | Name | Email | Department | Institute | Profile |
