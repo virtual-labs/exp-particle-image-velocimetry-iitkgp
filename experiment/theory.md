@@ -51,7 +51,7 @@ Where:
 
 2. **Illumination:** A laser is used to illuminate the tracer particles. The laser typically creates a thin sheet of light, which is aligned with the plane of interest in the flow field. The illuminated particles then reflect light and form images that are captured by high-speed cameras.
 
-3. **Image Acquisition:** Two images are captured at a known time interval (Δt). The first image is recorded at time t<sub>0</sub>​ and the second one at time t<sub>0</sub>​+Δtt<sub>0</sub>​ + Δt t<sub>0</sub>​+Δt. The displacement of the particles between these two images is used to calculate the velocity field.
+3. **Image Acquisition:** Two images are captured at a known time interval (Δt). The first image is recorded at time t<sub>0</sub>​ and the second one at time t<sub>0</sub>​+Δt. The displacement of the particles between these two images is used to calculate the velocity field.
 
 4. **Cross-Correlation:** The images are divided into small interrogation windows. Cross-correlation techniques are applied to compare the particle patterns in the two images. The displacement of particles in each window gives the velocity vector in that region.
 
